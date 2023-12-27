@@ -1,0 +1,31 @@
+.login-button{
+  background-color:brown;
+  color: aliceblue;
+  padding: 0.5rem;
+  border-radius: 2px;
+  width: 70px;
+}
+.form-container{
+  display: flex;
+  padding: 2rem;
+  background-color: aliceblue;
+  flex-direction: column;
+  width: 264px;
+}
+
+.email-input,.password-input{
+  border-radius: 5px;
+  background-color: antiquewhite;
+  border: 1px solid black;
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+}
+
+.email-input,.password-input,.login-button{
+   margin: 10px;
+}
+
+.email-input-label,.password-input-label{
+  margin-left: 10px;
+}

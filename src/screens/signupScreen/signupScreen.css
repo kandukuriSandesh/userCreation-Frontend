@@ -1,0 +1,37 @@
+.login-button{
+    background-color:brown;
+    color: aliceblue;
+    padding: 0.5rem;
+    border-radius: 2px;
+    width: 70px;
+    font-family: Helvetica, sans-serif;
+  }
+  .form-container{
+    display: flex;
+    padding: 2rem;
+    background-color: aliceblue;
+    flex-direction: column;
+    width: 264px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: inset;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .email-input,.password-input,.username-input,.confirmpassword-input{
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+  }
+  
+  .email-input,.confirmpassword-input,.password-input,.username-input,.login-button{
+     margin: 10px;
+  }
+  
+  .email-input-label,.password-input-label,.confirmpassword-input-label,.username-input-label{
+    margin-left: 10px;
+  }
